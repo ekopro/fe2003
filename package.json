@@ -1,0 +1,17 @@
+{
+  "name": "simple-project",
+  "version": "1.0.0",
+  "scripts": {
+    "api": "node simple_api/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserify": {
+     "transform": [
+       "babelify"
+     ]
+   },
+  "dependencies": {
+    "node-static": "^0.7.9"
+  }
+}
